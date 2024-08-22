@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Kanto",
+        "description": "Región de los Pokémon iniciales como Pikachu."
+    },
+    {
+        "name": "Sinnoh",
+        "description": "Conocida por los Pokémon legendarios."
+    },
+    {
+        "name": "Hoenn",
+        "description": "Famosa por su diversidad de ecosistemas."
+    },
+    {
+        "name": "Kalos",
+        "description": "Región inspirada en Francia con muchas culturas."
+    }
+]

@@ -1,0 +1,193 @@
+[
+    {
+      "id": 1,
+      "name": "May",
+      "region": "Hoenn",
+      "team": [
+        {
+          "pokemon": "torchic",
+          "level": 31
+        },
+        {
+          "pokemon": "beautifly",
+          "level": 32
+        },
+        {
+          "pokemon": "mawile",
+          "level": 30
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Brendan",
+      "region": "Hoenn",
+      "team": [
+        {
+          "pokemon": "mudkip",
+          "level": 32
+        },
+        {
+          "pokemon": "zangoose",
+          "level": 30
+        },
+        {
+          "pokemon": "lunatone",
+          "level": 31
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Wallace",
+      "region": "Hoenn",
+      "team": [
+        {
+          "pokemon": "luvdisc",
+          "level": 45
+        },
+        {
+          "pokemon": "gyarados",
+          "level": 48
+        },
+        {
+          "pokemon": "milotic",
+          "level": 50
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Wally",
+      "region": "Hoenn",
+      "team": [
+        {
+          "pokemon": "ralts",
+          "level": 30
+        },
+        {
+          "pokemon": "gardevoir",
+          "level": 40
+        },
+        {
+          "pokemon": "altaria",
+          "level": 35
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Flannery",
+      "region": "Hoenn",
+      "team": [
+        {
+          "pokemon": "slugma",
+          "level": 36
+        },
+        {
+          "pokemon": "torkoal",
+          "level": 38
+        },
+        {
+          "pokemon": "numel",
+          "level": 34
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Tate and Liza",
+      "region": "Hoenn",
+      "team": [
+        {
+          "pokemon": "solrock",
+          "level": 43
+        },
+        {
+          "pokemon": "lunatone",
+          "level": 44
+        },
+        {
+          "pokemon": "metagross",
+          "level": 45
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Norman",
+      "region": "Hoenn",
+      "team": [
+        {
+          "pokemon": "slaking",
+          "level": 45
+        },
+        {
+          "pokemon": "vigoroth",
+          "level": 44
+        },
+        {
+          "pokemon": "zangoose",
+          "level": 43
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Juan",
+      "region": "Hoenn",
+      "team": [
+        {
+          "pokemon": "seaking",
+          "level": 45
+        },
+        {
+          "pokemon": "gyarados",
+          "level": 46
+        },
+        {
+          "pokemon": "luvdisc",
+          "level": 47
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Sidney",
+      "region": "Hoenn",
+      "team": [
+        {
+          "pokemon": "mightyena",
+          "level": 48
+        },
+        {
+          "pokemon": "shiftry",
+          "level": 46
+        },
+        {
+          "pokemon": "cacturne",
+          "level": 44
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Phoebe",
+      "region": "Hoenn",
+      "team": [
+        {
+          "pokemon": "banette",
+          "level": 48
+        },
+        {
+          "pokemon": "duskull",
+          "level": 45
+        },
+        {
+          "pokemon": "sableye",
+          "level": 47
+        }
+      ]
+    }
+  ]
+  

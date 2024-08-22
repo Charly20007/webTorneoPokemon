@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "name": "Ash Ketchum",
+    "region": "Kanto",
+    "team": [
+      {
+        "pokemon": "Pikachu",
+        "level": 35
+      },
+      {
+        "pokemon": "Charizard",
+        "level": 36
+      },
+      {
+        "pokemon": "Bulbasaur",
+        "level": 34
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Misty",
+    "region": "Kanto",
+    "team": [
+      {
+        "pokemon": "Starmie",
+        "level": 30
+      },
+      {
+        "pokemon": "Psyduck",
+        "level": 28
+      },
+      {
+        "pokemon": "Gyarados",
+        "level": 32
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Brock",
+    "region": "Kanto",
+    "team": [
+      {
+        "pokemon": "Onix",
+        "level": 30
+      },
+      {
+        "pokemon": "Geodude",
+        "level": 28
+      },
+      {
+        "pokemon": "Kabutops",
+        "level": 31
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Gary Oak",
+    "region": "Kanto",
+    "team": [
+      {
+        "pokemon": "Blastoise",
+        "level": 35
+      },
+      {
+        "pokemon": "Arcanine",
+        "level": 34
+      },
+      {
+        "pokemon": "Gengar",
+        "level": 36
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Giovanni",
+    "region": "Kanto",
+    "team": [
+      {
+        "pokemon": "Persian",
+        "level": 35
+      },
+      {
+        "pokemon": "Rhydon",
+        "level": 37
+      },
+      {
+        "pokemon": "Mewtwo",
+        "level": 40
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Lorelei",
+    "region": "Kanto",
+    "team": [
+      {
+        "pokemon": "Jynx",
+        "level": 48
+      },
+      {
+        "pokemon": "Lapras",
+        "level": 50
+      },
+      {
+        "pokemon": "Dewgong",
+        "level": 47
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Bruno",
+    "region": "Kanto",
+    "team": [
+      {
+        "pokemon": "Onix",
+        "level": 50
+      },
+      {
+        "pokemon": "Hitmonchan",
+        "level": 48
+      },
+      {
+        "pokemon": "Machamp",
+        "level": 49
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Agatha",
+    "region": "Kanto",
+    "team": [
+      {
+        "pokemon": "Gengar",
+        "level": 55
+      },
+      {
+        "pokemon": "Arbok",
+        "level": 53
+      },
+      {
+        "pokemon": "Haunter",
+        "level": 51
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Lance",
+    "region": "Kanto",
+    "team": [
+      {
+        "pokemon": "Dragonite",
+        "level": 60
+      },
+      {
+        "pokemon": "Gyarados",
+        "level": 56
+      },
+      {
+        "pokemon": "Aerodactyl",
+        "level": 55
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Red",
+    "region": "Kanto",
+    "team": [
+      {
+        "pokemon": "Charizard",
+        "level": 85
+      },
+      {
+        "pokemon": "Blastoise",
+        "level": 84
+      },
+      {
+        "pokemon": "Venusaur",
+        "level": 83
+      }
+    ]
+  }
+]

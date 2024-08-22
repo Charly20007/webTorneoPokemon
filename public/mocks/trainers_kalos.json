@@ -1,0 +1,193 @@
+[
+    {
+      "id": 1,
+      "name": "Serena",
+      "region": "Kalos",
+      "team": [
+        {
+          "pokemon": "Fennekin",
+          "level": 32
+        },
+        {
+          "pokemon": "Pancham",
+          "level": 30
+        },
+        {
+          "pokemon": "Sylveon",
+          "level": 35
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Clemont",
+      "region": "Kalos",
+      "team": [
+        {
+          "pokemon": "Heliolisk",
+          "level": 50
+        },
+        {
+          "pokemon": "Bunnelby",
+          "level": 45
+        },
+        {
+          "pokemon": "Magneton",
+          "level": 48
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Korrina",
+      "region": "Kalos",
+      "team": [
+        {
+          "pokemon": "Lucario",
+          "level": 45
+        },
+        {
+          "pokemon": "Machoke",
+          "level": 44
+        },
+        {
+          "pokemon": "Pancham",
+          "level": 42
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Sarina",
+      "region": "Kalos",
+      "team": [
+        {
+          "pokemon": "Talonflame",
+          "level": 55
+        },
+        {
+          "pokemon": "Pidgeot",
+          "level": 54
+        },
+        {
+          "pokemon": "Delphox",
+          "level": 56
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sycamore",
+      "region": "Kalos",
+      "team": [
+        {
+          "pokemon": "Venusaur",
+          "level": 52
+        },
+        {
+          "pokemon": "Blastoise",
+          "level": 50
+        },
+        {
+          "pokemon": "Charizard",
+          "level": 51
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Lysandre",
+      "region": "Kalos",
+      "team": [
+        {
+          "pokemon": "Gyarados",
+          "level": 55
+        },
+        {
+          "pokemon": "Mienfoo",
+          "level": 52
+        },
+        {
+          "pokemon": "Houndoom",
+          "level": 54
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Grant",
+      "region": "Kalos",
+      "team": [
+        {
+          "pokemon": "Tyrunt",
+          "level": 39
+        },
+        {
+          "pokemon": "Kabutops",
+          "level": 40
+        },
+        {
+          "pokemon": "Onix",
+          "level": 38
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Emma",
+      "region": "Kalos",
+      "team": [
+        {
+          "pokemon": "Togekiss",
+          "level": 47
+        },
+        {
+          "pokemon": "Gardevoir",
+          "level": 45
+        },
+        {
+          "pokemon": "Meloetta",
+          "level": 48
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Valerie",
+      "region": "Kalos",
+      "team": [
+        {
+          "pokemon": "Sylveon",
+          "level": 50
+        },
+        {
+          "pokemon": "Florges",
+          "level": 52
+        },
+        {
+          "pokemon": "Klefki",
+          "level": 45
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Alain",
+      "region": "Kalos",
+      "team": [
+        {
+          "pokemon": "Charizard",
+          "level": 70
+        },
+        {
+          "pokemon": "Greninja",
+          "level": 72
+        },
+        {
+          "pokemon": "Mewtwo",
+          "level": 75
+        }
+      ]
+    }
+  ]
+  

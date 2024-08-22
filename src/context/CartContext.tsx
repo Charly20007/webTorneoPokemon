@@ -3,13 +3,14 @@ import { createContext, ReactNode, useState } from 'react';
 interface CartItem {
   type: string;
   price: string;
-  quantity: number; // Nueva propiedad para la cantidad
+  quantity: number;
 }
 
 interface CartContextProps {
   items: CartItem[];
   total: string;
   addItem: (item: CartItem) => void;
+  removeItem: (type: string) => void;
   clearCart: () => void;
 }
 
@@ -21,6 +22,7 @@ export const CartContext = createContext<CartContextProps>({
   items: [],
   total: '$0',
   addItem: () => {},
+  removeItem: () => {},
   clearCart: () => {},
 });
 
@@ -38,6 +40,29 @@ export const CartProvider: React.FC<CartProviderProps> = ({ children }) => {
     }
   };
 
+  const removeItem = (type: string) => {
+    console.log(`Intentando quitar el artículo: ${type}`);
+    setItems((prevItems) => {
+      const itemIndex = prevItems.findIndex(item => item.type === type);
+      if (itemIndex !== -1) {
+        const updatedItems = [...prevItems];
+        if (updatedItems[itemIndex].quantity > 1) {
+          // Disminuir la cantidad en 1
+          updatedItems[itemIndex].quantity -= 1;
+          console.log(`Cantidad de ${type} disminuida a ${updatedItems[itemIndex].quantity}`);
+        } else {
+          // Si la cantidad es 1, eliminar el artículo
+          updatedItems.splice(itemIndex, 1);
+          console.log(`Artículo ${type} eliminado del carrito.`);
+        }
+        return updatedItems;
+      }
+      return prevItems; // Si no se encuentra el artículo, no hacer nada
+    });
+  };
+  
+  
+
   const clearCart = () => {
     setItems([]);
   };
@@ -47,7 +72,7 @@ export const CartProvider: React.FC<CartProviderProps> = ({ children }) => {
   }, 0).toFixed(2);
 
   return (
-    <CartContext.Provider value={{ items, total: `$${total}`, addItem, clearCart }}>
+    <CartContext.Provider value={{ items, total: `$${total}`, addItem, clearCart, removeItem }}>
       {children}
     </CartContext.Provider>
   );

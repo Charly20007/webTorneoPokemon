@@ -1,0 +1,193 @@
+[
+    {
+      "id": 1,
+      "name": "Cynthia",
+      "region": "Sinnoh",
+      "team": [
+        {
+          "pokemon": "Garchomp",
+          "level": 60
+        },
+        {
+          "pokemon": "Lucario",
+          "level": 55
+        },
+        {
+          "pokemon": "Togekiss",
+          "level": 54
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Paul",
+      "region": "Sinnoh",
+      "team": [
+        {
+          "pokemon": "Electivire",
+          "level": 50
+        },
+        {
+          "pokemon": "Torterra",
+          "level": 50
+        },
+        {
+          "pokemon": "Honchkrow",
+          "level": 48
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dawn",
+      "region": "Sinnoh",
+      "team": [
+        {
+          "pokemon": "Piplup",
+          "level": 30
+        },
+        {
+          "pokemon": "Buneary",
+          "level": 28
+        },
+        {
+          "pokemon": "Pachirisu",
+          "level": 29
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Flint",
+      "region": "Sinnoh",
+      "team": [
+        {
+          "pokemon": "Infernape",
+          "level": 55
+        },
+        {
+          "pokemon": "Steelix",
+          "level": 54
+        },
+        {
+          "pokemon": "Rapidash",
+          "level": 53
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Barry",
+      "region": "Sinnoh",
+      "team": [
+        {
+          "pokemon": "Empoleon",
+          "level": 45
+        },
+        {
+          "pokemon": "Staraptor",
+          "level": 44
+        },
+        {
+          "pokemon": "Ponyta",
+          "level": 42
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Iris",
+      "region": "Sinnoh",
+      "team": [
+        {
+          "pokemon": "Excadrill",
+          "level": 45
+        },
+        {
+          "pokemon": "Dragonite",
+          "level": 55
+        },
+        {
+          "pokemon": "Haxorus",
+          "level": 53
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Cyrus",
+      "region": "Sinnoh",
+      "team": [
+        {
+          "pokemon": "Honchkrow",
+          "level": 48
+        },
+        {
+          "pokemon": "Weavile",
+          "level": 50
+        },
+        {
+          "pokemon": "Gyarados",
+          "level": 52
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Gardenia",
+      "region": "Sinnoh",
+      "team": [
+        {
+          "pokemon": "Cherrim",
+          "level": 45
+        },
+        {
+          "pokemon": "Torterra",
+          "level": 44
+        },
+        {
+          "pokemon": "Roserade",
+          "level": 42
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Erika",
+      "region": "Sinnoh",
+      "team": [
+        {
+          "pokemon": "Vileplume",
+          "level": 48
+        },
+        {
+          "pokemon": "Gloom",
+          "level": 46
+        },
+        {
+          "pokemon": "Bellsprout",
+          "level": 45
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Roark",
+      "region": "Sinnoh",
+      "team": [
+        {
+          "pokemon": "Cranidos",
+          "level": 40
+        },
+        {
+          "pokemon": "Onix",
+          "level": 40
+        },
+        {
+          "pokemon": "Kabuto",
+          "level": 40
+        }
+      ]
+    }
+  ]
+  
