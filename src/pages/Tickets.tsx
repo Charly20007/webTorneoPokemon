@@ -7,7 +7,7 @@ const Tickets = () => {
     const { addItem } = useContext(CartContext); // Accediendo a addItem del contexto
 
     const handleAddToCart = (type: string, price: string) => {
-        addItem({ type, price }); // Agrega el ticket al carrito
+        addItem({ type, price,  quantity: 1 }); // Agrega el ticket al carrito
         console.log("Ticket comprado:", type, price);
     };
     

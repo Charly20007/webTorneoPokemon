@@ -13,7 +13,7 @@ const Cart = () => {
         <ul>
           {items.map((item) => (
             <li key={item.type} className="border-b py-2">
-              {item.type} - {item.price}
+              {item.type} - {item.quantity} x {item.price} = ${(parseFloat(item.price.slice(1)) * item.quantity).toFixed(2)}
             </li>
           ))}
         </ul>

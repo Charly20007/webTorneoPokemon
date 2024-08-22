@@ -1,6 +1,12 @@
 import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+import { CartContext } from '../context/CartContext';
 
 const Header: React.FC = () => {
+  const { items } = useContext(CartContext);
+
+  const totalItems = items.reduce((sum, item) => sum + item.quantity, 0);
+
   return (
     <header className="bg-blue-600 p-4">
       <div className="container mx-auto flex justify-between items-center">
@@ -18,9 +24,14 @@ const Header: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link to="/cart" className="text-white hover:text-gray-200">
-                Carrito
-              </Link>
+                <Link to="/cart" className="text-white hover:text-gray-200 flex items-center">
+                    Carrito
+                        {totalItems > 0 && (
+                            <span className="ml-2 bg-green-500 text-white rounded-full px-2 py-1 text-xs">
+                                {totalItems}
+                            </span>
+                        )}
+                </Link>
             </li>
             <li>
               <Link to="/trainers" className="text-white hover:text-gray-200">
@@ -35,4 +46,6 @@ const Header: React.FC = () => {
 };
 
 export default Header;
+
+
 
