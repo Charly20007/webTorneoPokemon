@@ -41,7 +41,6 @@ export const CartProvider: React.FC<CartProviderProps> = ({ children }) => {
   };
 
   const removeItem = (type: string) => {
-    console.log(`Intentando quitar el artículo: ${type}`);
     setItems((prevItems) => {
       const itemIndex = prevItems.findIndex(item => item.type === type);
       if (itemIndex !== -1) {
@@ -49,11 +48,9 @@ export const CartProvider: React.FC<CartProviderProps> = ({ children }) => {
         if (updatedItems[itemIndex].quantity > 1) {
           // Disminuir la cantidad en 1
           updatedItems[itemIndex].quantity -= 1;
-          console.log(`Cantidad de ${type} disminuida a ${updatedItems[itemIndex].quantity}`);
         } else {
           // Si la cantidad es 1, eliminar el artículo
           updatedItems.splice(itemIndex, 1);
-          console.log(`Artículo ${type} eliminado del carrito.`);
         }
         return updatedItems;
       }
