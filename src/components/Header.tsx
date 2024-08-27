@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useContext, useState } from 'react';
 import { CartContext } from '../context/CartContext';
-import pokemonLogo from '../assets/logo.png'; // Asegúrate de que la ruta sea correcta
+import pokemonLogo from '../assets/logo.png';
 
 
 const Header: React.FC = () => {
@@ -17,7 +17,7 @@ const Header: React.FC = () => {
     <header className="bg-gradient-to-r from-blue-500 to-red-500 p-4 shadow-lg">
         <div className="container mx-auto flex justify-between items-center">
         <Link to="/">
-          <img src={pokemonLogo} alt="Logo Pokémon" className="h-10" /> {/* Ajusta la altura según sea necesario */}
+          <img src={pokemonLogo} alt="Logo Pokémon" className="h-10" />
         </Link>        <nav className="hidden md:block">
           <ul className="flex space-x-4">
             <li>
